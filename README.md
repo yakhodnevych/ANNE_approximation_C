@@ -4,15 +4,15 @@ This repository contains the software implementation of a computational algorith
 
 ## Features
 
-•	Homogeneous ensemble of three identical neural network models.
-•	The base neural network model is a fully connected feedforward neural network with a single hidden layer; the output neuron is linear, while the hidden layer neurons use a sigmoid activation function.
-•	Utilizes independent datasets for training each neural network.
-•	Training of the ensemble follows the bagging method (Bootstrap Aggregating).
-•	Uses the backpropagation method for neural network training.
-•	Aggregates the predictions of the three neural networks into a single forecasting result using the majority voting method, considering inverse problem solutions.
-•	Predicts the Chezy roughness coefficient, a crucial parameter in hydraulics.
-•	Intended for use in computational hydrodynamics and related fields.
-•	Implemented using modern machine learning techniques in Python (version 3.10.11).
+-	Homogeneous ensemble of three identical neural network models.
+-	The base neural network model is a fully connected feedforward neural network with a single hidden layer; the output neuron is linear, while the hidden layer neurons use a sigmoid activation function.
+-	Utilizes independent datasets for training each neural network.
+-	Training of the ensemble follows the bagging method (Bootstrap Aggregating).
+-	Uses the backpropagation method for neural network training.
+-	Aggregates the predictions of the three neural networks into a single forecasting result using the majority voting method, considering inverse problem solutions.
+-	Predicts the Chezy roughness coefficient, a crucial parameter in hydraulics.
+-	Intended for use in computational hydrodynamics and related fields.
+-	Implemented using modern machine learning techniques in Python (version 3.10.11).
 
 ## Main Components
 
